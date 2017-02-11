@@ -36,31 +36,11 @@ function shoppingListObjects (list) {
     console.log("Total: $" + total);
 }
 
-var milk = {
-    name: "Milk",
-    price: 2.49,
-};
-
-var bread = {
-    name: "Bread",
-    price: 3.99,
-};
-
-var apples = {
-    name: "Apples",
-    price: 4.49,
-};
-
-var spinach = {
-    name: "Spinach",
-    price: 1.99,
-};
-
 var groceryList = [
-    milk,
-    bread,
-    apples,
-    spinach
+    milk = {name: "Milk", price: 2.49},
+    bread = {name: "Bread", price: 3.99},
+    apples = {name: "Apples",price: 4.49,},
+    spinach = {name: "Spinach", price: 1.99,}
 ];
 
 shoppingListObjects (groceryList);
